@@ -12,7 +12,7 @@ print("Ibrar Yunus ~ University of St. Andrews, United Kingdom")
 print("\n\n\ninitializing")
 
 # Frames per second
-FPS = 200
+FPS = 500
 
 # Window parameters
 WINDOWWIDTH = 400 * 2
