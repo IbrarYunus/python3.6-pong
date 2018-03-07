@@ -1,7 +1,6 @@
 # Ibrar Yunus - University of St. Andrews
 # Based on a Tutorial by Trevor Appleton @ http://trevorappleton.blogspot.co.uk/2014/04/writing-pong-using-python-and-pygame.html
 
-
 import pygame
 import sys
 from pygame.locals import *
@@ -12,7 +11,7 @@ print("Ibrar Yunus ~ University of St. Andrews, United Kingdom")
 print("\n\n\ninitializing")
 
 # Frames per second
-FPS = 500
+FPS = 1000
 
 # Window parameters
 WINDOWWIDTH = 400 * 2
@@ -107,7 +106,7 @@ def main():
 
     FPSCLOCK = pygame.time.Clock()
     DISPLAYSURF = pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT))
-    pygame.display.set_caption("pygame-pond-0.1")
+    pygame.display.set_caption("pygame-pong-0.1")
 
     # Initializing the starting positions
     ballX = WINDOWWIDTH/2 - LINETHICKNESS/2
@@ -157,3 +156,13 @@ def main():
 
 if __name__=='__main__':
     main()
+
+
+
+
+"""
+To do: 
+Add scoring system
+Make the scoring text big
+BOld/Thin
+"""
